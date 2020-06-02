@@ -1,0 +1,14 @@
+server:
+    #port: 8333
+    port: 8080
+
+spring:
+    rabbitmq:
+#        host: 172.30.11.35
+#        port: 5672
+#        username: myadmin
+#        password: jin1234
+        host: 127.0.0.1
+        port: 5672
+        username: guest
+        password: guest
